@@ -39,7 +39,6 @@ header > p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 50rem;
   margin-top: 3rem;
   margin-bottom: 5rem;
 }
@@ -86,7 +85,7 @@ footer h2 {
   padding: 2rem 0;
 }
 footer p {
-  width: 40rem;
+  max-width: 40rem;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
