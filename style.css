@@ -21,13 +21,78 @@
 h1 {
   font-family: "ftwoods";
   font-size: 400%;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
   text-align: center;
 }
 header {
   background-image: url(graphics/bg.jpg);
   background-size: 100vw;
   background-repeat: repeat-y;
+  height: 70rem;
 }
 footer {
   background-color: #2d4823;
+}
+header > p {
+  max-width: 40rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+  background-color: #4f6a13;
+  text-align: center;
+  position: relative;
+}
+.circle h2 {
+  font-size: 150%;
+  font-weight: bold;
+}
+.circle p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 15rem;
+  margin-top: 1rem;
+}
+
+.circle.one {
+  left: 20rem;
+}
+.circle.two {
+  left: 40rem;
+  top: -8.5rem;
+}
+.circle.three {
+  left: 20rem;
+  top: -17rem;
+}
+footer {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+}
+footer h2 {
+  font-size: 160%;
+  font-weight: bold;
+  padding: 2rem 0;
+}
+footer p {
+  width: 40rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
+}
+footer p a {
+  text-decoration: underline;
+  font-weight: lighter;
 }
